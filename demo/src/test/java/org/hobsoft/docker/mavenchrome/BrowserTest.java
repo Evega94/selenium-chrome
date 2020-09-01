@@ -44,8 +44,8 @@ public class BrowserTest
 	{
 		ChromeOptions options = new ChromeOptions()
 			.setHeadless(true);
-			.addArguments("--no-sandbox");
-			.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
 		
 		driver = new ChromeDriver(options);
 	}
