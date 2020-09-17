@@ -67,6 +67,6 @@ public class BrowserTest
 		driver.findElement(By.id("search_form_input_homepage")).sendKeys("fish");
 		driver.findElement(By.id("search_button_homepage")).click();
 		
-		assertThat(driver.getTitle(), containsString("fish"));
+		assertThat(driver.getTitle(), containsString("fishh"));
 	}
 }
